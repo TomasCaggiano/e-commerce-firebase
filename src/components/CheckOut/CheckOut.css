@@ -1,34 +1,39 @@
-
 @media (max-width: 768px) {
-    .checkout{
-
-        background-color: #f9f9f9; 
+    .checkout {
+        background-color: #f3f4f6;
+        padding: 2rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     }
+
     .checkout div {
         display: flex;
-        width: 90%; 
         flex-direction: column;
-        margin-bottom: 1rem;
-        margin-left: 5%; 
-        padding: 1rem; 
-        border-radius: 10px; 
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        width: 90%;
+        margin: 0 auto 1.5rem;
+        padding: 1.5rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
     }
 
     .checkout button {
-        margin: 0 auto; 
-        border-radius: 30px;
-        width: 9rem;
-        height: 2rem;
-        background-color: #044b06; 
-        color: white; 
-        border: none; 
+        margin: 1rem auto;
+        border-radius: 25px;
+        width: 10rem;
+        height: 2.5rem;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
         cursor: pointer;
-        transition: background-color 0.3s ease; 
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        font-size: 1rem;
+        font-weight: bold;
     }
 
     .checkout button:hover {
-        background-color: #45a049; 
+        background-color: #45a049;
+        transform: scale(1.05);
     }
 }
 
@@ -39,33 +44,39 @@
         flex-wrap: wrap;
         justify-content: space-between;
         min-height: 50rem;
-        padding: 1rem; 
-        background-color: #f9f9f9; 
+        padding: 2rem;
+        background-color: #f3f4f6;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     }
+
     .checkout div {
         display: flex;
-        width: 45%;
         flex-direction: column;
-        margin-bottom: 1rem;
-        margin-left: 5px;
-        padding: 1rem; 
-        border-radius: 10px; 
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        width: 45%;
+        margin: 0 2.5% 1.5rem;
+        padding: 1.5rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
     }
 
     .checkout button {
-        margin: 1rem auto; /* Centrando botón + margen */
-        border-radius: 30px;
-        width: 9rem;
-        height: 2rem;
-        background-color: #034205;
-        color: white; 
-        border: none; 
-        cursor: pointer; 
-        transition: background-color 0.3s ease; 
+        margin: 1rem auto;
+        border-radius: 25px;
+        width: 10rem;
+        height: 2.5rem;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        font-size: 1rem;
+        font-weight: bold;
     }
 
     .checkout button:hover {
-        background-color: #45a049; 
+        background-color: #45a049;
+        transform: scale(1.05);
     }
 }
