@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="acerca-de" >
         <small>acerca de</small>
         <p><Link to=''>portfolio</Link></p>
-        <p><Link to=''>repositorio</Link></p>
+        <p><Link to='https://github.com/TomasCaggiano/e-commerce-firebase'>repositorio</Link></p>
       </div>
       <div>
         <small className='contactoTitulo'>contacto</small>
