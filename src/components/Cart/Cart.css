@@ -1,0 +1,98 @@
+
+@media (max-width: 768px) {
+    .carrito {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 50rem;
+        padding: 1rem; 
+        background-color: #f9f9f9; 
+        border-radius: 10px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+
+    .botonesCarrito {
+        display: flex;
+        justify-content: center; 
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .botonesCarrito button {
+        margin: 0.5rem;
+        border-radius: 30px;
+        width: 9rem;
+        height: 2rem;
+        background-color: #003a02;
+        color: white; 
+        border: none; 
+        cursor: pointer; 
+        transition: background-color 0.3s ease; 
+    }
+
+    .botonesCarrito button:hover {
+        background-color: #45a049; }
+
+    .card-container {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .carrito {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        flex-wrap: wrap;
+        min-height: 50rem;
+        padding: 1rem; 
+        background-color: #f9f9f9; 
+        border-radius: 10px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+
+    .botonesCarrito {
+        display: flex;
+        justify-content: center; /* Centra botones horizontalmente */
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .botonesCarrito button {
+        margin: 0.5rem;
+        border-radius: 30px;
+        width: 9rem;
+        height: 2rem;
+        background-color: #003a02;
+        color: #ffffff; 
+        border: none; 
+        cursor: pointer; 
+        transition: background-color 0.3s ease; 
+    }
+
+    .botonesCarrito button:hover {
+        background-color: #45a049; 
+    }
+
+    .card-container {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        width: 100%;
+    }
+
+    .card-container button {
+        height: auto;
+        width: auto;
+    }
+}

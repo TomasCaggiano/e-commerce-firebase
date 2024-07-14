@@ -1,0 +1,87 @@
+@media (max-width: 768px) {
+    .detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        align-items: center;
+        min-height: 20rem;
+    }
+
+    .detail img {
+        height: 6rem; 
+        width: auto;
+        margin-bottom: 1rem; }
+
+    .botonesDetalles button {
+        border-radius: 5px;
+        font-size: 16px; 
+        border: none;
+        margin: 0.5rem; 
+        padding: 0.5rem 1rem; 
+    }
+
+    .detalles h2 {
+        font-size: 12px; 
+        text-align: center; 
+    }
+
+    .detalles p {
+        font-size: 6px; 
+        text-align: center; }
+
+    .botonesDetalles {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: center; 
+        flex-wrap: wrap; 
+    }
+    .botonesDetalles input{
+        height: 2rem;
+        width: 7rem;
+        text-align: center;
+    }
+
+    .botonesDetalles div small {
+        font-size: 11px; 
+    }
+}
+
+@media (min-width: 768px) {
+    .detail {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 50rem;
+        align-items: center; 
+    }
+
+    .detail img {
+        height: 22rem; 
+        width: auto;
+        margin-right: 1rem; 
+    }
+
+    .botonesDetalles button {
+        border-radius: 10%;
+        padding: 0.5rem 1rem; 
+        font-size: 16px; 
+        margin: 0.5rem; }
+
+    .botonesDetalles {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+    .botonesDetalles input{
+        height: 2rem;
+        width: 7rem;
+        text-align: center;
+    }
+
+    .detalles h2, .detalles p {
+        text-align: center; 
+    }
+}

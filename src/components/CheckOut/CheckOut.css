@@ -1,0 +1,71 @@
+
+@media (max-width: 768px) {
+    .checkout{
+
+        background-color: #f9f9f9; 
+    }
+    .checkout div {
+        display: flex;
+        width: 90%; 
+        flex-direction: column;
+        margin-bottom: 1rem;
+        margin-left: 5%; 
+        padding: 1rem; 
+        border-radius: 10px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+
+    .checkout button {
+        margin: 0 auto; 
+        border-radius: 30px;
+        width: 9rem;
+        height: 2rem;
+        background-color: #044b06; 
+        color: white; 
+        border: none; 
+        cursor: pointer;
+        transition: background-color 0.3s ease; 
+    }
+
+    .checkout button:hover {
+        background-color: #45a049; 
+    }
+}
+
+@media (min-width: 768px) {
+    .checkout {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        min-height: 50rem;
+        padding: 1rem; 
+        background-color: #f9f9f9; 
+    }
+    .checkout div {
+        display: flex;
+        width: 45%;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        margin-left: 5px;
+        padding: 1rem; 
+        border-radius: 10px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+
+    .checkout button {
+        margin: 1rem auto; /* Centrando botón + margen */
+        border-radius: 30px;
+        width: 9rem;
+        height: 2rem;
+        background-color: #034205;
+        color: white; 
+        border: none; 
+        cursor: pointer; 
+        transition: background-color 0.3s ease; 
+    }
+
+    .checkout button:hover {
+        background-color: #45a049; 
+    }
+}

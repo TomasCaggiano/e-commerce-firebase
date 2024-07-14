@@ -1,0 +1,79 @@
+
+.card h3 {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    transition: color 0.3s ease; 
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 15rem;
+        background-color: #f8f8f8;
+        border-radius: 10px;
+        border: 1px solid #ccc; 
+        margin: 1rem auto; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /
+    }
+
+    .card img {
+        height: 10rem; 
+        width: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        transition: color 0.3s ease; 
+    }
+
+    a:visited {
+        color: black; 
+    }
+}
+
+
+@media (min-width: 768px) {
+    .card h3:hover {
+        color: red; 
+    }
+
+    .card {
+        flex: 1 1 220px;  
+        background-color: #f8f8f8; 
+        padding: 1rem; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        border-radius: 10px; 
+        max-width: 15rem; 
+        margin: 15px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto; /* Centrando la imagen */
+        display: block;
+    }
+
+    a {
+        font-size: 13px;
+        color: black;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    a:visited {
+        color: black; 
+    }
+
+    a:hover {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+    br {
+        height: 5px;
+        background-color: red;
+    }
+}

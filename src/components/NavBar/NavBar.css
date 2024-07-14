@@ -1,0 +1,97 @@
+@media(min-width: 768px){.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .navBar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .categorias {
+    
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+  }
+  
+  .categorias a {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .categorias a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .categorias a:hover {
+    transition: 1s;
+    text-decoration: underline;
+  }
+  
+  .cart {
+    margin-left: auto; /* Empuja el carrito hacia la derecha */
+  }
+  .categorias{
+    flex-direction: row;
+    display: flex;
+  }
+  .menuIcon {
+    
+    display: none; /* Oculto inicialmente en pantallas grandes */
+    cursor: pointer;
+    color: #333333; /* Color del ícono del menú */
+    font-size: 24px;
+    margin-right: 10px; /* Ajuste de margen */
+  }
+}
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 768px) {
+    .navBar .categorias {
+      display: none; /* Ocultar la lista de navegación principal */
+    }
+  .navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+    .navBar .menuIcon {
+      display: block; /* Mostrar el ícono del menú hamburguesa */
+    }
+  
+    .navBar .menuItems {
+      position: absolute;
+      top: 20px; /* Ajusta según necesites */
+      background-color: #ffffff; /* Color de fondo del menú */
+      display: none; /* Oculto inicialmente */
+    }
+  
+    .navBar .menuItems.active {
+      display: flex; /* Mostrar el menú hamburguesa cuando está activo */
+      flex-direction: column;
+      align-items: flex-end; /* Ajuste de alineación */
+    }
+  
+    .navBar .menuItems a {
+      padding: 10px;
+      text-decoration: none;
+      color: #333333; /* Color del texto del menú */
+      font-size: 18px; /* Ajuste de tamaño de fuente */
+    }
+  }
+  

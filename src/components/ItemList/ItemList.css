@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+}
+
+@media (min-width: 768px) {
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; 
+        justify-content: center; 
+    }
+
+    .container {
+        min-height: 35rem;
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+}
